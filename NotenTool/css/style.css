@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100vh;
+}
+
+body{
+    height: 100%;
+    background-color: #282828;
+    padding: 0.5em;
+}
+
+h2 {
+    color: white;
+}
+
+nav {
+    background-color: #311b92;
+}
+
+table {
+
+    border-radius: 10px;
+}
+
+footer {
+    text-align: center; 
+    background-color: dimgray; 
+    color: white;
+    position:fixed;
+    left:0px;
+    bottom: 0px;
+    width:100%;
+    background:#999;
+}
+
+input, select {
+    width: 100%;
+    padding: 6px;
+    margin-bottom: 1rem;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 0.2em;
+}
+
+.submitButton {
+    background-color: #04AA6D;
+    color: white;
+    padding: 6px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 0.2em;
+}
+
+.submitButton:hover {
+    
+}
+
+.editButton {
+    color: white;
+    background-color: #282828;
+    border-radius: 0.2em;
+}
+
+.deleteButton {
+    color: white;
+    background-color: darkred;
+    border-radius: 0.2em;
+}
